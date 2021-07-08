@@ -14,7 +14,8 @@ Node Task Manager API:
     "name": "name",
     "email": "name.last@gmail.com",
     "password": "password123!"
-}```
+}
+```
 
 2) Create Task:
 
@@ -23,7 +24,8 @@ Node Task Manager API:
 {
     "description": "Use these APIs",
     "completed": false
-}```
+}
+```
 
 3) Login:
 
@@ -32,7 +34,8 @@ Node Task Manager API:
 {
     "name": "name",
     "email": "name.last@gmail.com"
-}```
+}
+```
 
 4) Logout:
 
@@ -57,7 +60,8 @@ Node Task Manager API:
 {
     "name": "Bob",
     "age": 27    
-}```
+}
+```
 
 9) Update Task by Id:
 
@@ -65,7 +69,8 @@ Node Task Manager API:
 
 {
     "completed": true
-}```
+}
+```
 
 10) Delete logged in User:
 
