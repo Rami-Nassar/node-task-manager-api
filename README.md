@@ -8,7 +8,8 @@ Node Task Manager API:
 
 1) Create User:
 
-```/POST {{url}}/users
+```
+/POST {{url}}/users
 
 {
     "name": "name",
@@ -19,7 +20,8 @@ Node Task Manager API:
 
 2) Create Task:
 
-```/POST {{url}}/tasks
+```
+/POST {{url}}/tasks
 
 {
     "description": "Use these APIs",
@@ -29,7 +31,8 @@ Node Task Manager API:
 
 3) Login:
 
-```/POST {{url}}/users/login
+```
+/POST {{url}}/users/login
 
 {
     "name": "name",
@@ -55,7 +58,8 @@ Node Task Manager API:
 
 8) Update User:
 
-```/PATCH {{url}}/users/me
+```
+/PATCH {{url}}/users/me
 
 {
     "name": "Bob",
@@ -65,7 +69,8 @@ Node Task Manager API:
 
 9) Update Task by Id:
 
-```/PATCH {{url}}/tasks/:id
+```
+/PATCH {{url}}/tasks/:id
 
 {
     "completed": true
