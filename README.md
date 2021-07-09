@@ -5,6 +5,7 @@ Node Task Manager API:
 - Implments Authentication - JWT Tokens
 - Implements upload functionality for user avatars.
 - Implements pagination and sorting functionality for retrieval of tasks
+- Implements tests cases using Jest
 
 1) Create User:
 
